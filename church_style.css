@@ -1,0 +1,110 @@
+body {
+    margin:auto;
+    max-width: 100%; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#nav {
+    color: white;
+    background-color: rgb(70, 130, 180) !important;
+}
+.churchlogo {
+    text-align:center
+}
+#freewillpic{
+    margin-top:20px
+}
+#ministries {
+    font-size:250%; 
+    color:rgb(70, 130, 180) 
+}
+.freehuellcontent {
+    display: flex; 
+    justify-content: right; 
+    align-items: flex-end
+}
+#huellpic {
+    
+}
+#freehuell {
+    font-size:200%; 
+    color:rgb(70, 130, 180);
+}
+#savehuell {
+    font-size: 200%;
+} 
+
+#huelllink {
+    color: rgb(255, 0, 216);
+}
+
+#huelllink:link {
+    color: magenta;
+
+}   
+#huelllink:visited {
+    color: orange;
+    text-decoration: none;
+}
+#huelllink:hover {
+    color: blue;
+    text-decoration: none;
+}
+#huelllink:active {
+    color: lime;
+    text-decoration: none;
+}
+
+.doublecross {
+    display:flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+    margin-top: 20px;
+}
+#otherministries {
+    text-align:center; 
+     
+
+}
+
+footer {
+    color:rgb(160, 160, 160); 
+    font-size: 75%; 
+    text-align: center; 
+    margin-top: 100px
+}
+#privacy {
+    color:rgb(160, 160, 160);
+}
+#cookies {
+    color:rgb(160, 160, 160);
+}
+#termsofuse {
+    color:rgb(160, 160, 160);
+}
+#bettercallsaul {
+    color:rgb(160, 160, 160);
+}
+div.gallery {
+    text-align: center;
+    margin: 50px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }

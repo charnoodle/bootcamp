@@ -1,0 +1,38 @@
+$btn-font-family: "Comic Sans MS";
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+$themeColor1: rgb(229, 79, 79);
+$themeColor2: rgb(11,110,110);
+$themeColor3: red;
+$widthFood: 400px;
+
+h1 {
+    color: $themeColor1;
+}
+
+div {
+    .subheading {
+        color: $themeColor3;
+    }
+    h1 {
+        color: $themeColor2;
+    }
+    p {
+        color:$themeColor2;
+    }
+}
+
+p {
+    color: $themeColor1;
+}
+
+.food {
+    width: $widthFood;
+}
+
+.shop-item {
+    width: $widthFood;
+}
+

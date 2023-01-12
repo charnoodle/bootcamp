@@ -1,0 +1,32 @@
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+  border-color: rgb(255, 229, 182);
+}
+
+th {
+  background-color: rgb(255, 200, 99);
+}
+
+tr:hover {
+  background-color: rgb(255, 200, 99);
+}
+
+.navbar-nav a {
+  -webkit-transition: color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  -webkit-box-shadow: inset 0 0 0 0 #f5b700;
+          box-shadow: inset 0 0 0 0 #f5b700;
+}
+
+.navbar-nav a:hover {
+  color: #692d55;
+  -webkit-box-shadow: inset 200px 0 0 0 #f5b700;
+          box-shadow: inset 200px 0 0 0 #f5b700;
+}
+
+#socmed {
+  text-align: center;
+}
